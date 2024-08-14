@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'poppins';
+    src: local('poppins'), url('/static/fonts/poppins.ttf') format('truetype');
+}
+
+body {
+    background-color: #8900f2;
+}
+
+h2 {
+    font-size: 34px;
+    text-align: center;
+    font-family: poppins;
+    color: #fff;
+    /* text-shadow: 0 0 5px white; */
+}
+
+.container {
+    height: 400px;
+    position: relative;
+    border: none;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    min-width: 300px;
+    font-size: 22px;
+    font-family: poppins;
+    background-color: #fff;
+    text-align: center;
+    border: none;
+    align-content: center;
+    text-decoration: none;
+    padding: 12px 20px;
+    box-shadow: 0 0 5px white,
+    0 0 15px white;
+}
+
+.button:hover {
+    box-shadow: 0 0 5px white,
+    0 0 25px white;
+}
+
+.text {
+    color: #fff;
+    font-family: poppins;
+    text-shadow: 0 0 5px white;
+}
+
+.field {
+    font-family: poppins;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px white;
+}

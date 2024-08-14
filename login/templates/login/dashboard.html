@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'dashboard.css' %}">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <h2>Dashboard</h2>
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="container">
+            <div class="content">
+                <p>Hello {{ name }}</p>
+            </div>
+
+            <div class="bottom">
+                <button type="button" class="button"><a href="{% url 'change-password' %}">Change Password</a></button>
+                <button type="button" class="button"><a href="{% url 'logout' %}">Log Out</a></button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

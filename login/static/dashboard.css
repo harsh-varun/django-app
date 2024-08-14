@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'poppins';
+    src: local('poppins'), url('/static/fonts/poppins.ttf') format('truetype');
+}
+
+body {
+    background-color: #8900f2;
+}
+
+h2 {
+    font-size: 34px;
+    font-family: poppins;
+    color: #fff;
+}
+
+.button {
+    font-size: 18px;
+    font-family: poppins;
+    min-width: 200px;
+    text-decoration: none;
+    background-color: #fff;
+    text-align: center;
+    border: none;
+    align-content: center;
+    box-shadow: 0 0 5px white,
+    0 0 15px white;
+}
+
+.button:hover {
+    box-shadow: 0 0 5px white,
+    0 0 25px white;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.container {
+    height: 500px;
+    position: relative;
+    border: none;
+}
+
+.bottom {
+    margin: 0;
+    position: absolute;
+    top: 95%;
+    left: 0%;
+}
+
+.content {
+    font-family: poppins;
+    font-size: 18px;
+    color: #fff;
+}
